@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My first multilevel menu</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+			integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<section class="container">
+			<h1>Hello World
+				<small>Small text</small>
+			</h1>
+			<button class="btn btn-primary">Button</button>
+		</section>
+		<section class="container-fluid">
+			<h2>Gallery</h2>
+			<div class="row">
+				<img class="col-xs-12 col-sm-6 col-md-3 img-responsive" src="http://placehold.it/200x200" alt="image1">
+				<img class="col-xs-12 col-sm-6 col-md-3 img-responsive" src="http://placehold.it/200x200" alt="image2">
+				<img class="col-xs-12 col-sm-6 col-md-3 img-responsive" src="http://placehold.it/200x200" alt="image3">
+				<img class="col-xs-12 col-sm-6 col-md-3 img-responsive" src="http://placehold.it/200x200" alt="image4">
+			</div>
+		</section>
+		<section class="container">
+			<div class="table-responsive">
+				<h2>table</h2>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Surname</th>
+							<th>Email or phone</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>aaaaaaaaaaaa</td>
+							<td>bbbbbbbbbbbbbb</td>
+							<td>ccccccccccc</td>
+						</tr>
+						<tr>
+							<td>aaaaaaaaaaa</td>
+							<td>isssssssssssss</td>
+							<td>wwwwwwwwwwwwwww</td>
+						</tr>
+						<tr>
+							<td>qqqqqqqqqqqq</td>
+							<td>Zeeeeeee/td>
+							<td>gggggggggggggggg</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+		<section class="container">
+			<form>
+				<div class="email">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				</div>
+				<div class="password">
+					<label for="exampleInputPassword1">Password</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				</div>
+				<div>
+					<label for="inputMessage">Write your messege below</label>
+					<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+				</div>
+				<div class="input file">
+					<label for="exampleInputFile">File input</label>
+					<input type="file" id="exampleInputFile">
+					<p class="help-block">Select below and submit</p>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox">I know everything
+					</label>
+				</div>
+				<button type="submit" class="btn btn-danger">Submit</button>
+			</form>
+		</section>
+	</body>
+</html>
